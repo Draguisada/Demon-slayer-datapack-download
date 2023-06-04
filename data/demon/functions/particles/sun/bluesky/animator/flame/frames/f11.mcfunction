@@ -1,0 +1,26 @@
+
+particle flame ^5.475 ^2.455 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.591 ^2.179 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.692 ^1.897 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.780 ^1.611 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.853 ^1.321 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.911 ^1.027 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.955 ^0.731 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.984 ^0.434 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.998 ^0.135 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.998 ^-0.165 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.982 ^-0.463 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.952 ^-0.761 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.906 ^-1.057 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.846 ^-1.350 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.772 ^-1.640 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.683 ^-1.925 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.580 ^-2.206 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.463 ^-2.482 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.332 ^-2.751 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.188 ^-3.013 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^5.032 ^-3.268 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^4.863 ^-3.515 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^4.681 ^-3.753 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^4.488 ^-3.982 ^6.000 0.4 0.4 0.4 0.1 1 normal @a
+particle flame ^4.284 ^-4.201 ^6.000 0.4 0.4 0.4 0.1 1 normal @a

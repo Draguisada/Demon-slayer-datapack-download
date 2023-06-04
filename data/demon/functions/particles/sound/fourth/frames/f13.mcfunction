@@ -1,0 +1,24 @@
+
+particle sweep_attack ^-1.999 ^-0.015 ^0.053 0 0 0 0 1 normal @a
+particle sweep_attack ^-2.000 ^-0.003 ^0.023 0 0 0 0 1 normal @a
+particle sweep_attack ^-2.000 ^-0.000 ^-0.008 0 0 0 0 1 normal @a
+particle sweep_attack ^-2.000 ^-0.008 ^-0.038 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.999 ^-0.024 ^-0.066 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.997 ^-0.050 ^-0.089 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.996 ^-0.082 ^-0.105 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.993 ^-0.120 ^-0.112 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.990 ^-0.162 ^-0.109 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.987 ^-0.206 ^-0.095 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.983 ^-0.248 ^-0.071 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.979 ^-0.287 ^-0.035 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.974 ^-0.320 ^0.011 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.969 ^-0.344 ^0.067 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.963 ^-0.359 ^0.130 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.957 ^-0.361 ^0.200 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.950 ^-0.349 ^0.272 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.943 ^-0.323 ^0.346 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.936 ^-0.283 ^0.417 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.927 ^-0.227 ^0.483 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.919 ^-0.157 ^0.542 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.910 ^-0.074 ^0.589 0 0 0 0 1 normal @a
+particle sweep_attack ^-1.900 ^0.020 ^0.624 0 0 0 0 1 normal @a

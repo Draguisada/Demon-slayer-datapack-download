@@ -1,0 +1,1 @@
+execute as @s at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace barrier

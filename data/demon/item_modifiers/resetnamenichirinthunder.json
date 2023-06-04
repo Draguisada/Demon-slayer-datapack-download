@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "selector": "@s",
+      "color": "yellow",
+      "italic": false,
+      "extra": [
+        {
+          "text": "'s Nichirin-tou",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "book.status.totalkill",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "totalkill"
+            },
+            "color": "gold",
+            "bold": true,
+            "italic": false
+          }
+        ]
+      },
+      {
+        "translate": "misc.element",
+        "color": "yellow",
+        "bold": true,
+        "italic": false,
+        "extra": [
+          {
+            "translate": "breathing.thunder"
+          }
+        ]
+      }
+    ],
+    "replace": true
+  }
+]

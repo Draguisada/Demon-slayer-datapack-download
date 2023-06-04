@@ -1,0 +1,26 @@
+
+particle dust 1 0.933 0 0.6 ^0.000 ^6.000 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^0.602 ^5.970 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^1.198 ^5.879 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^1.782 ^5.729 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^2.348 ^5.522 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^2.890 ^5.258 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^3.403 ^4.942 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^3.881 ^4.575 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^4.321 ^4.163 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^4.717 ^3.708 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.065 ^3.216 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.362 ^2.692 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.605 ^2.140 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.792 ^1.567 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.920 ^0.978 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.988 ^0.379 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.996 ^-0.223 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.943 ^-0.824 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.831 ^-1.416 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.659 ^-1.994 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.430 ^-2.552 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^5.147 ^-3.084 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^4.812 ^-3.584 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^4.428 ^-4.049 ^6.000 0 0 0 0 1 normal @a
+particle dust 1 0.933 0 0.6 ^3.999 ^-4.473 ^6.000 0 0 0 0 1 normal @a

@@ -1,0 +1,1 @@
+execute as @s at @s run function demon:breathings/zenitsu/eightfold/sixfoldraycast/sixfoldraycast

@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Kinoe rank",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Now you can turn in to a Hashira!",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:netherite_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "demon:kinoto"
+}

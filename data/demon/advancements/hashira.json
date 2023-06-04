@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hashira rank!",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Now you are one of the strongest demon slayers out there!",
+            "color": "red",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "demon:kinoe"
+}

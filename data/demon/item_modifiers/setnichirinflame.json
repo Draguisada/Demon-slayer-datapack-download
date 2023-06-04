@@ -1,0 +1,16 @@
+[{
+  
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [{
+            "selector": "@s",
+            "color": "red",
+            "italic": false
+        },
+        {
+            "text": "'s Nichirin-tou (Flame)",
+            "color": "red",
+            "italic": false
+        }
+    ]
+}]

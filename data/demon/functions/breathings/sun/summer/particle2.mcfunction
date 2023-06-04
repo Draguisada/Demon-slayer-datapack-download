@@ -1,0 +1,1 @@
+execute as @e[tag=summerparticles,type=armor_stand] at @s run function demon:breathings/sun/summer/particle2

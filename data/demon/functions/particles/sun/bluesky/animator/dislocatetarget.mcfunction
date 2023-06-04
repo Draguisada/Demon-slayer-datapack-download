@@ -1,0 +1,1 @@
+execute as @a[tag=blueskyp] at @s run function demon:particles/sun/bluesky/animator/tag

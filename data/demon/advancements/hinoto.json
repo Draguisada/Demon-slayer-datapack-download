@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hinoto rank",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:netherite_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "get": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "demon:tsuchinoe"
+}

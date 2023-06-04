@@ -1,0 +1,15 @@
+[{
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [{
+            "selector": "@s",
+            "color": "blue",
+            "italic": false
+        },
+        {
+            "text": "'s Nichirin-tou (Water)",
+            "color": "blue",
+            "italic": false
+        }
+    ]
+}]

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:armor_stand",
+        "minecraft:item_frame",
+        "minecraft:item",
+        "minecraft:marker",
+        "minecraft:area_effect_cloud",
+        "minecraft:arrow",
+        "minecraft:spectral_arrow",
+        "minecraft:glow_item_frame",
+        "minecraft:item_display",
+        "minecraft:interaction",
+        "minecraft:text_display",
+        "minecraft:text_display"
+    ]
+}

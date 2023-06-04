@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:carrot_on_a_stick\",tag:{isNichirin:1b}}]}"
+    }
+  }
+  

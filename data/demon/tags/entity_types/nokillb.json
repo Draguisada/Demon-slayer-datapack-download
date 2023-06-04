@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:villager",
+        "minecraft:cat",
+        "minecraft:armor_stand",
+        "minecraft:item_frame",
+        "minecraft:item",
+        "minecraft:marker",
+        "minecraft:ender_dragon",
+        "minecraft:area_effect_cloud",
+        "minecraft:glow_item_frame",
+        "minecraft:iron_golem"
+    ]
+}
