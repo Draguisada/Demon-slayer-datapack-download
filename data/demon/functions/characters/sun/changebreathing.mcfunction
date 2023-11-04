@@ -1,5 +1,4 @@
+scoreboard players add @s tanjiroattack 1
 
-scoreboard players add @s[scores={drop=1..}] tanjiroattack 1
 
-
-tellraw @a[tag=debug] "change breathing sun"
+tellraw @s[tag=debug] "change breathing sun"

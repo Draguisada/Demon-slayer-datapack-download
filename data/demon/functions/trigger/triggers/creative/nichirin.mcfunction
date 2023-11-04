@@ -4,6 +4,7 @@ tag @s remove zenitsu
 tag @s remove sun
 tag @s remove beast
 tag @s remove sound
+tag @s remove none
 
 execute if entity @s[scores={nichirin=100}] run function demon:nichirin/givenichirinnone
 execute if entity @s[scores={nichirin=1}] run function demon:nichirin/breathings/flame

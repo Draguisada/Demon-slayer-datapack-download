@@ -41,13 +41,8 @@ execute as @a[tag=sound,predicate=demon:isnichirin] at @s run function demon:cha
 
 
 ##Drop to change form
-execute as @a[tag=zenitsu,scores={drop=1..}] at @s run function demon:characters/zenitsu/changebreathing
-execute as @a[tag=water,scores={drop=1..}] at @s run function demon:characters/giyu/changebreathing
-execute as @a[tag=sun,scores={drop=1..}] at @s run function demon:characters/sun/changebreathing
-execute as @a[tag=flame,scores={drop=1..}] at @s run function demon:characters/flame/changebreathing
-execute as @a[tag=beast,scores={drop=1..}] at @s run function demon:characters/beast/changebreathing
-execute as @a[tag=sound,scores={drop=1..}] at @s run function demon:characters/sound/changebreathing
 execute as @a[tag=nichirinset,scores={drop=1..}] at @s run function demon:characters/manager/dropitem
+
 #Particles to breathings
 ##10th form particles
 execute as @a[tag=10form] at @s run function demon:breathings/water/10form/particles
