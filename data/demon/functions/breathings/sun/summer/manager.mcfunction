@@ -1,4 +1,4 @@
-scoreboard players set @s kagura 20
+scoreboard players set @s ds_kagura 20
 tag @s add summer
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"sun.fourth.chat","color":"gold"}]
 
@@ -12,7 +12,7 @@ summon armor_stand ~ ~ ~ {Tags:["summerparticles"],NoGravity:1b,Invisible:1b}
 
 execute as @e[tag=summerparticles,type=armor_stand] at @s rotated as @a[tag=summer] run tp ~ ~ ~
 
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.hurt_on_fire voice @s ~ ~ ~ 1 0.5
 playsound item.flintandsteel.use voice @s ~ ~ ~ 1 1

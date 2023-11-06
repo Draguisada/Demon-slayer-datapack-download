@@ -1,7 +1,5 @@
 {
     "values": [
-        "demon:init",
-        "math:zprivate/init",
-        "cw_hp_control:init"
+        "demon:init"
     ]
 }

@@ -6,7 +6,7 @@ execute as @s at @s positioned ^0.2 ^0.9 ^0.5 run function demon:particles/flame
 execute as @s at @s positioned ^-0.2 ^1.5 ^0.5 run function demon:particles/flame/four/particles
 execute as @s at @s positioned ^-0.2 ^0.9 ^0.5 run function demon:particles/flame/four/particles
 execute as @s at @s positioned ^0.6 ^1.5 ^0.5 run function demon:particles/flame/four/particles
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.hurt_on_fire player @s ~ ~ ~ 1 0.5
 playsound minecraft:entity.player.hurt_on_fire player @s ~ ~ ~ 1 1

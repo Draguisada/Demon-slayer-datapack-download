@@ -1,5 +1,7 @@
 schedule function demon:main20t 20t
 
+
+
 #Giyu nichirin silence mob for the most satisfing effect killing mobs
 execute at @a[tag=calm] run data merge entity @e[type=!#demon:nokill,type=!player,distance=0..6,limit=1,nbt=!{Silent:1b}] {Silent:1b}
 #Give the click detector for the player

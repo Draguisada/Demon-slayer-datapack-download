@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add firstformflame
 #anounce in chat in 60 blocks radious
@@ -19,7 +19,7 @@ playsound minecraft:entity.ender_dragon.shoot voice @a ~ ~ ~ 1 1.2
 tellraw @a[tag=debug] "first form flame"
 
 #set range
-scoreboard players set @s range 15
+scoreboard players set @s ds_range 15
 #function
 execute as @s at @s anchored eyes run function demon:raycast/rengoku/firstform/raycast
 

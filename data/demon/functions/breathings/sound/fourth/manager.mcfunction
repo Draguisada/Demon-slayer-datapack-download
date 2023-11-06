@@ -7,12 +7,12 @@ execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:pla
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"white"}
 
-scoreboard players set @s fourthsound 150
+scoreboard players set @s ds_fourthsound 150
 
 effect give @s slowness 8 9 true
 effect give @s resistance 8 9 true
 
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 1
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 2

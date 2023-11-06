@@ -1,0 +1,1 @@
+title @a actionbar ["",{"translate":"misc.othercooldown","color":"light_blue"},{"score":{"name":"@s","objective":"ds_9form"},"color":"cyan"},{"translate":"misc.cooldown2","color":"light_blue"}]

@@ -11,7 +11,7 @@ tellraw @a[tag=debug] {"text":"damage 15","color":"red"}
 
 ##
 execute as @s at @s rotated as @s anchored feet positioned ~ ~-2.4 ~ run function demon:particles/flame/third/particles
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.hurt_on_fire player @s ~ ~ ~ 1 0.5
 playsound minecraft:entity.player.hurt_on_fire player @s ~ ~ ~ 1 1

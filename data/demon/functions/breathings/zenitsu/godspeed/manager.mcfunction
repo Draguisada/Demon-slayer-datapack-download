@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Set tag just to not cofuse me
 tag @s add god
 #anounce in chat in 60 blocks radious
@@ -22,7 +22,7 @@ tellraw @a[tag=debug] "firstform godspeed zenitsu"
 
 
 #set range
-scoreboard players set @s range 32
+scoreboard players set @s ds_range 32
 #function
 execute as @s at @s anchored eyes run function demon:raycast/zenitsu/godspeed/manager
 

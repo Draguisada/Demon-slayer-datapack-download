@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add fifthformwater
 #anounce in chat in 60 blocks radious
@@ -17,7 +17,7 @@ playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 1.5 1
 playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 0 1
 playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 0 1
 #Range
-scoreboard players set @s range 12
+scoreboard players set @s ds_range 12
 #Function raycast
 execute as @s at @s anchored eyes run function demon:raycast/water/fifth/raycast
 ###

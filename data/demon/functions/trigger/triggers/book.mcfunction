@@ -1,2 +1,3 @@
+scoreboard players set @s ds_playerenter 0
 function demon:books/book
-scoreboard players set @s book 0
+scoreboard players reset @s ds_helpbook

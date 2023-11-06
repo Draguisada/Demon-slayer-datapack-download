@@ -1,5 +1,5 @@
 kill @e[tag=kill,type=!#demon:nokill]
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add thirdformwater
 #anounce in chat in 60 blocks radious
@@ -7,7 +7,7 @@ tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"water.third.chat",
 ########################DECORATION###########################
 
 #Raycast
-scoreboard players set @s range 10
+scoreboard players set @s ds_range 10
 
 execute as @s at @s positioned ~ ~1.3 ~ run function demon:raycast/water/third/raycast
 ###

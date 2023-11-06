@@ -1,11 +1,11 @@
 #Tp
 tp @s ~ ~ ~ ~ 0
 #
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 
 effect give @s minecraft:instant_damage 1 1 true
 #anounce in chat in 60 blocks radious
-scoreboard players set @s rengoku 20
+scoreboard players set @s ds_rengoku 20
 tag @s add rengoku
 #rengoku
 function demon:breathings/flame/nine/tiger/release
@@ -30,7 +30,7 @@ tellraw @a[tag=debug] "manager nine out flame"
 tellraw @a[tag=debug] {"text":"damage 40","color":"red"}
 
 #set range
-scoreboard players set @s range 80
+scoreboard players set @s ds_range 80
 #function
 execute as @s at @s anchored eyes run function demon:raycast/rengoku/rengoku/raycast
 

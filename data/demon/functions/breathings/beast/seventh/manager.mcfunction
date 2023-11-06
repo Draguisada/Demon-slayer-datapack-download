@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add seventhbeast
 #anounce in chat in 60 blocks radious
@@ -13,7 +13,7 @@ execute positioned ^ ^ ^1 run effect give @e[distance=..20,tag=!seventhbeast] gl
 
 tellraw @a[tag=debug] "seventh form beast"
 
-execute as @s run scoreboard players set @s cooldown 400 
+execute as @s run scoreboard players set @s ds_cooldown 400 
 
 ##Lol
 

@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add firstformbeast
 #anounce in chat in 60 blocks radious

@@ -1,4 +1,4 @@
-scoreboard players set @s[scores={detectclick=1..}] detectclick 0
+scoreboard players set @s[scores={ds_detectclick=1..}] ds_detectclick 0
 tag @s add calm
 attribute @s minecraft:generic.knockback_resistance base set 100
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"water.calm.chat","bold": true,"color":"blue"}]

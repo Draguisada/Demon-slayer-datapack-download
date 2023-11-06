@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0 
+scoreboard players set @s ds_detectclick 0 
 #Set tag just to not cofuse me
 tag @s add fourthformwater
 #anounce in chat in 60 blocks radious
@@ -20,7 +20,7 @@ playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 0 1
 tellraw @a[tag=debug] "fourth form water"
 
 #set range
-scoreboard players set @s range 12
+scoreboard players set @s ds_range 12
 #function
 execute as @s at @s anchored eyes run function demon:raycast/water/four/raycast
 

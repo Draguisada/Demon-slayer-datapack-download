@@ -1,5 +1,4 @@
-scoreboard players enable @a helpbook
-#scoreboard players enable @a statusbook
-scoreboard players enable @a feedback
-scoreboard players enable @a bugreport
-scoreboard players enable @a maker
+scoreboard players enable @a ds_helpbook
+scoreboard players enable @a ds_feedback
+scoreboard players enable @a ds_bugreport
+scoreboard players enable @a ds_maker

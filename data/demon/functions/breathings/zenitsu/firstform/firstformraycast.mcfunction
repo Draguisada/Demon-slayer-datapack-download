@@ -1,4 +1,4 @@
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Set tag just to not cofuse me
 tag @s add zenitsudoing
 #anounce in chat in 60 blocks radious
@@ -18,11 +18,11 @@ tellraw @a[tag=debug] "firstform zenitsu"
 
 
 #set range
-scoreboard players set @s range 20
+scoreboard players set @s ds_range 20
 #function
 execute as @s at @s anchored eyes run function demon:raycast/zenitsu/firstform/raycastzenitsu
 
-execute as @s run scoreboard players set @s cooldown 50
+execute as @s run scoreboard players set @s ds_cooldown 50
 execute as @e[tag=zenitsuendray,type=armor_stand] at @s rotated as @a[tag=zenitsudoing] run tp ~ ~ ~
 tp @s @e[tag=zenitsuendray,type=armor_stand,limit=1]
 kill @e[type=armor_stand,tag=zenitsuendray]

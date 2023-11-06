@@ -1,14 +1,14 @@
 tag @s add soundfifth
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"sound.fifth.chat","color":"white"}]
 
-scoreboard players set @s soundfifth 150
+scoreboard players set @s ds_soundfifth 150
 
 effect give @s speed 8 0 true
 effect give @s resistance 8 0 true
 effect give @s strength 8 0 true
 
 
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 1
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 2

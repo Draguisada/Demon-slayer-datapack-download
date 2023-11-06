@@ -27,7 +27,7 @@
           {
             "score": {
               "name": "@s",
-              "objective": "totalkill"
+              "objective": "ds_totalkill"
             },
             "color": "gray",
             "bold": true,

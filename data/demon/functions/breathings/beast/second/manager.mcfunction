@@ -8,7 +8,7 @@ execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:pla
 tellraw @a[tag=debug] {"text":"damage 20","color":"red"}
 execute rotated ~90 ~-0 positioned ^ ^2 ^-1 run function demon:particles/beast/second/manager
 execute rotated ~90 ~-40 positioned ^ ^2 ^-1 run function demon:particles/beast/second/manager
-scoreboard players set @s detectclick 0
+scoreboard players set @s ds_detectclick 0
 #Comestics!
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 1
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 2
