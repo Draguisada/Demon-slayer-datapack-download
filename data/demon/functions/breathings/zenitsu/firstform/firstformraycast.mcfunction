@@ -1,3 +1,4 @@
+execute as @s run scoreboard players set @s ds_cooldown 50
 scoreboard players set @s ds_detectclick 0
 #Set tag just to not cofuse me
 tag @s add zenitsudoing
@@ -22,7 +23,8 @@ scoreboard players set @s ds_range 20
 #function
 execute as @s at @s anchored eyes run function demon:raycast/zenitsu/firstform/raycastzenitsu
 
-execute as @s run scoreboard players set @s ds_cooldown 50
+
+execute as @s run function demon:breathings/manager/cooldowns/fast
 execute as @e[tag=zenitsuendray,type=armor_stand] at @s rotated as @a[tag=zenitsudoing] run tp ~ ~ ~
 tp @s @e[tag=zenitsuendray,type=armor_stand,limit=1]
 kill @e[type=armor_stand,tag=zenitsuendray]

@@ -1,4 +1,5 @@
 scoreboard players set @s ds_cooldown 300
+execute as @s run function demon:breathings/manager/cooldowns/slow
 tag @s add zenitsudoingsixfold
 #anounce in chat in 60 blocks radious
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"zenitsu.sixfold.chat","bold": true,"color":"yellow"}]

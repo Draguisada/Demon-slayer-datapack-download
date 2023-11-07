@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "demon:nichirin_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "demon:nichirin/maker/advancments/function"
+    }
+}

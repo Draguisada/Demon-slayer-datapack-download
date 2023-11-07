@@ -3,4 +3,5 @@ tag @s remove nichirinset
 tag @s add none
 
 
+
 tellraw @a[tag=debug] "give nichirin"

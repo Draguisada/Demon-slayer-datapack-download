@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:nether_star"
+    },
+    "base": {
+        "item": "minecraft:netherite_sword"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

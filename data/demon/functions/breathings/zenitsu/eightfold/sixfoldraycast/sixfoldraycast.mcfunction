@@ -10,7 +10,7 @@ playsound entity.lightning_bolt.impact ambient @a[distance=..60] ~ ~0.1 ~ 10 0.9
 effect give @s minecraft:levitation 1 255 true
 
 #set range
-scoreboard players set @s range 20
+scoreboard players set @s ds_range 20
 #function
 execute as @s at @s anchored eyes run function demon:raycast/zenitsu/sixfold/raycastzenitsu
 execute as @e[tag=zenitsuendraysixfold] at @s rotated as @a[tag=zenitsudoingsixfold] run tp ~ ~ ~
