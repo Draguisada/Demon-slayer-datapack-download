@@ -15,6 +15,7 @@ execute as @e[tag=blueskydmg,type=!#demon:nokill] at @s run damage @s 35 minecra
 tellraw @a[tag=debug] {"text":"damage 35","color":"gold"}
 
 scoreboard players set @s ds_detectclick 0
+tag @e[tag=blueskydmg] remove blueskydmg
 #Comestics!
 playsound minecraft:entity.player.hurt_on_fire voice @s ~ ~ ~ 1 0.5
 playsound item.flintandsteel.use voice @s ~ ~ ~ 1 1
@@ -23,7 +24,8 @@ playsound item.firecharge.use voice @a ~ ~ ~ 1 2
 
 execute as @e[type=armor_stand,tag=skyblue] at @s positioned ^ ^1 ^-2 run function demon:particles/sun/bluesky/manager
 
-function demon:bugfixer/flyingintheair/giveattribute
+tag @s add flyingbug
+summon shulker ~ ~2.1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:0b,NoAI:1b,AttachFace:0b,Color:14b,Tags:["flyingbug"],ActiveEffects:[{Id:14,Amplifier:1b,Duration:10000,ShowParticles:0b}]}
 
 execute as @s run function demon:breathings/manager/cooldowns/medium
 

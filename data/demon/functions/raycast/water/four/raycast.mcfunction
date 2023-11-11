@@ -1,4 +1,4 @@
-tag @e[tag=!fourthformwater,type=!#demon:nokill,distance=..3.4] add kill
+tag @e[tag=!fourthformwater,type=!#demon:nokill,distance=..3.4] add 4fw
 particle minecraft:dripping_dripstone_water ~ ~-1.5 ~ 0.003 0 0.003 0.03 4 normal
 
 scoreboard players remove @s ds_range 1

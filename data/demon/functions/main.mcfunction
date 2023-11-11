@@ -1,6 +1,7 @@
-function demon:main2
+execute as @a at @s run function demon:main2
 
-
+#//
+execute as @a[tag=flyingbug] at @s run function demon:bugfixer/flyingintheair/tpsshulker
 
 #//
 execute as @a[scores={ds_cooldown=1..},tag=nocooldown] run scoreboard players set @s ds_cooldown 0
@@ -29,3 +30,5 @@ execute as @a[scores={ds_soundfifth=..0},tag=soundfifth] run tag @s remove sound
 execute as @a[scores={ds_soundfifth=1..}] run scoreboard players remove @s ds_soundfifth 1
 #//
 execute as @e[type=armor_stand,tag=waterdragon] run scoreboard players add @s ds_cooldown 1
+
+

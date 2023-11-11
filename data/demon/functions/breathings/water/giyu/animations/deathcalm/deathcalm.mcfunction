@@ -12,7 +12,7 @@ execute at @s run particle minecraft:dripping_water ~ ~0.1 ~ 1.9 0 1.9 0 100 nor
 execute at @s run particle dolphin ~ ~0.1 ~ 1.9 0 1.9 0.4 300 normal @a
 execute at @s run particle minecraft:fishing ~ ~0.2 ~ 1.9 0 1.9 0 200 normal @a
 
-tag @e[distance=..4.5,tag=!calm,type=!#demon:nokill] add kill
+tag @e[distance=..4.5,tag=!calm,type=!#demon:nokill] add deadcalm
 
 execute as @s run function demon:breathings/manager/cooldowns/sslow
 

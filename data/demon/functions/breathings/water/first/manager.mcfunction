@@ -15,20 +15,21 @@ playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 0 1
 playsound entity.boat.paddle_water voice @a ~ ~ ~ 1 0 1
 
 ###
-execute positioned ^2 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add kill
-execute positioned ^1 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add kill
-execute positioned ^ ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add kill
-execute positioned ^-1 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add kill
-execute positioned ^-2 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add kill
+execute positioned ^2 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add 5wf
+execute positioned ^1 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add 5wf
+execute positioned ^ ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add 5wf
+execute positioned ^-1 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add 5wf
+execute positioned ^-2 ^1 ^1 run tag @e[tag=!firstformwater,distance=..1.5,type=!#demon:nokill] add 5wf
 
 
 tellraw @a[tag=debug] "first form water"
 
 execute as @s run function demon:breathings/manager/cooldowns/fast
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=firstformwater,limit=1,sort=nearest]
+execute as @e[tag=5wf,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=firstformwater,limit=1,sort=nearest]
 
 tag @s remove firstformwater
+tag @e[tag=5wf] remove 5wf
 
 
 tellraw @a[tag=debug] {"text":"damage 15","color":"blue"}

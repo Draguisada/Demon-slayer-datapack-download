@@ -3,9 +3,9 @@ effect give @s minecraft:slowness 1 4 true
 effect give @s minecraft:levitation 1 1 true
 tp @s ~ ~2 ~ 
 ##Dmg
-execute positioned ^ ^ ^1 run tag @e[tag=!flameform,distance=..1.3,type=!#demon:nokill] add kill
+execute positioned ^ ^ ^1 run tag @e[tag=!flameform,distance=..1.3,type=!#demon:nokill] add 3ff
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
+execute as @e[tag=3ff,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
 
 tellraw @a[tag=debug] {"text":"damage 15","color":"red"}
 
@@ -18,5 +18,5 @@ playsound minecraft:entity.player.hurt_on_fire player @s ~ ~ ~ 1 1
 playsound item.firecharge.use player @s ~ ~ ~ 1 1
 execute as @s run function demon:breathings/manager/cooldowns/fast
 tag @s remove flameform
-
+tag @e[tag=3ff] remove 3ff
 tellraw @a[tag=debug] "manager third flame"

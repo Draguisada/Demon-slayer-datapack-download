@@ -1,8 +1,8 @@
 tag @s add dance
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"sun.first.chat","color":"gold"}]
 effect give @s minecraft:slowness 1 4 true
-execute positioned ^ ^1 ^1 run tag @e[tag=!dance,type=!player,distance=..1.5] add kill
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 25 minecraft:player_attack by @a[tag=dance,limit=1,sort=nearest]
+execute positioned ^ ^1 ^1 run tag @e[tag=!dance,type=!player,distance=..1.5] add dancesf
+execute as @e[tag=dancesf,type=!#demon:nokill] at @s run damage @s 25 minecraft:player_attack by @a[tag=dance,limit=1,sort=nearest]
 tellraw @a[tag=debug] {"text":"damage 25","color":"red"}
 execute anchored eyes positioned ^-1 ^ ^0.5 run function demon:particles/sun/dance/manager
 scoreboard players set @s ds_detectclick 0
@@ -14,5 +14,6 @@ playsound item.firecharge.use voice @s ~ ~ ~ 1 1
 execute as @s run function demon:breathings/manager/cooldowns/fast
 tag @s remove flameform
 
+tag @e[tag=dancesf] remove dancesf
 tellraw @a[tag=debug] "manager dance sun"
 tag @s remove dance

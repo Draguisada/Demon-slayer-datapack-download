@@ -1,4 +1,4 @@
-tag @e[tag=!thirdformwater,type=!#demon:nokill,distance=..1.71] add kill
+tag @e[tag=!thirdformwater,type=!#demon:nokill,distance=..1.71] add 3wf
 
 #particles
 particle minecraft:bubble ~ ~ ~ 0.1 0 0.1 0 10 normal @a[distance=..30]

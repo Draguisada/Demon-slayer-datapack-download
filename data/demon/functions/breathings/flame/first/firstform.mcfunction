@@ -29,9 +29,9 @@ tp @s @e[tag=flamefirstend,type=armor_stand,limit=1]
 execute at @e[tag=killwaterfirst,type=!#demon:nokill] facing 0 40 0 positioned ~ ~0.5 ~ run function demon:particles/flame/first/manager
 kill @e[type=armor_stand,tag=flamefirstend]
 ##
-tag @e[tag=killwaterfirst,type=!#demon:nokill] add kill
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
+execute as @e[tag=killwaterfirst,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
 tellraw @a[tag=debug] {"text":"damage 20","color":"red"}
 ##
+tag @e[tag=killwaterfirst] remove killwaterfirst
 tag @s remove firstformflame
 tag @s remove flameform

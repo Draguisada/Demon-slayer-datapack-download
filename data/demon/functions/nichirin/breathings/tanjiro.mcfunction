@@ -3,5 +3,5 @@ item replace entity @s weapon.mainhand with minecraft:carrot_on_a_stick{Damage:0
 item modify entity @s weapon.mainhand demon:setnichirintanjiro
 
 tag @s add sun
-scoreboard players set @s tanjiroattack 1
+scoreboard players set @s ds_tanjiroattack 1
 tellraw @a[tag=debug] "nichirin setted to sun"

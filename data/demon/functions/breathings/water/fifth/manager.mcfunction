@@ -28,10 +28,10 @@ execute as @e[tag=waterfifthend] at @s rotated as @a[tag=fifthformwater] run tp 
 tp @s @e[tag=waterfifthend,type=armor_stand,limit=1]
 kill @e[type=armor_stand,tag=waterfifthend]
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fifthformwater,limit=1,sort=nearest]
+execute as @e[tag=5wf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fifthformwater,limit=1,sort=nearest]
 
 tag @s remove fifthformwater
-
+tag @e[tag=5wf] remove 5wf
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"blue"}
 

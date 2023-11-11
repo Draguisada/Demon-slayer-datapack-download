@@ -36,5 +36,5 @@ kill @e[type=armor_stand,tag=godend]
 execute as @e[tag=godspeed,type=!#demon:nokill] at @s run damage @s 30 minecraft:player_attack by @a[tag=god,limit=1,sort=nearest]
 tellraw @a[tag=debug] {"text":"damage 30","color":"yellow"}
 tag @s remove god
-tag @e[type=!#demon:nokill] remove godspeed
+tag @e[tag=godspeed] remove godspeed
 

@@ -1,6 +1,6 @@
 function demon:raycast/zenitsu/firstform/raycastparticleszenitsu
 
-tag @e[tag=!zform,type=!#demon:nokill,distance=..2] add kill
+tag @e[tag=!zenitsudoing,type=!#demon:nokill,distance=..2] add tff
 
 particle end_rod ~ ~-1.5 ~ 0.003 0 0.003 0.03 4 normal
 

@@ -13,11 +13,8 @@ execute as @a[tag=cooldown,tag=sound] run title @s actionbar ["",{"translate":"m
 
 execute as @a[tag=cooldown,tag=flame] run title @s actionbar ["",{"translate":"misc.cooldown","color":"red"},{"score":{"name":"@s","objective":"ds_cooldown"},"color":"red"},{"translate":"misc.cooldown2","color":"red"}]
 ##
-#QOL - 9° Form time left display
-execute if entity @a[scores={ds_9form=1..}] as @a[scores={ds_9form=1..}] run function demon:breathings/water/ninth/qol/9formdisplay
+
 ##
-tag @a remove kill
-tag @a remove killsummer
 
 execute as @a[tag=fourthsound] at @s positioned ~ ~1 ~ run function demon:particles/sound/fourth/animate
 
@@ -55,3 +52,6 @@ execute as @a[tag=10form] at @s run function demon:breathings/water/10form/parti
 execute as @e[tag=particlebluesky,type=armor_stand] at @s positioned ^ ^ ^-6 run function demon:particles/sun/bluesky/animator/manager
 ##Kagura summer sun burning bones
 execute as @e[tag=summerparticles,type=armor_stand] at @s run function demon:breathings/sun/summer/particlesanimate
+
+#QOL - 9° Form time left display
+execute if entity @a[scores={ds_9form=1..}] as @a[scores={ds_9form=1..}] run function demon:breathings/water/ninth/qol/9formdisplay

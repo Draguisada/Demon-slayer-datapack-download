@@ -9,15 +9,15 @@ playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 1
 playsound minecraft:entity.player.attack.sweep voice @a ~ ~ ~ 1 2
 function demon:particles/beast/first/manager
 ###
-execute positioned ^ ^ ^1 run tag @e[tag=!firstformbeast,distance=..1.8,type=!#demon:nokill] add kill
+execute positioned ^ ^ ^1 run tag @e[tag=!firstformbeast,distance=..1.8,type=!#demon:nokill] add 1bf
 
 tellraw @a[tag=debug] "first form beast"
 
 execute as @s run function demon:breathings/manager/cooldowns/fast
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 10 minecraft:player_attack by @a[tag=firstformbeast,limit=1,sort=nearest]
+execute as @e[tag=1bf,type=!#demon:nokill] at @s run damage @s 10 minecraft:player_attack by @a[tag=firstformbeast,limit=1,sort=nearest]
 
 tag @s remove firstformbeast
 
-tag @e[tag=kill] remove kill
+tag @e[tag=1bf] remove 1bf
 tellraw @a[tag=debug] {"text":"damage 10","color":"gray"}

@@ -18,16 +18,16 @@ execute rotated as @s rotated ~90 ~ positioned ^ ^ ^-1 run function demon:partic
 execute rotated as @s rotated ~90 ~ positioned ^ ^ ^-0.2 run function demon:particles/beast/fourth/manager
 execute rotated as @s rotated ~90 ~ positioned ^ ^ ^0.5 run function demon:particles/beast/fourth/manager
 ###
-execute positioned ^ ^ ^1 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add kill
-execute positioned ^ ^ ^-1 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add kill
-execute positioned ^ ^ ^2 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add kill
+execute positioned ^ ^ ^1 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add 4bf
+execute positioned ^ ^ ^-1 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add 4bf
+execute positioned ^ ^ ^2 run tag @e[tag=!fourthbeast,distance=..2,type=!#demon:nokill] add 4bf
 tellraw @a[tag=debug] "fourth form beast"
 
 execute as @s run function demon:breathings/manager/cooldowns/fast
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fourthbeast,limit=1,sort=nearest]
+execute as @e[tag=4bf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fourthbeast,limit=1,sort=nearest]
 
 
 tag @s remove fourthbeast
-tag @e[tag=kill] remove kill
+tag @e[tag=4bf] remove 4bf
 tellraw @a[tag=debug] {"text":"damage 20","color":"gray"}

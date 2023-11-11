@@ -39,6 +39,7 @@ execute as @s run function demon:breathings/manager/cooldowns/sslow
 execute as @e[tag=rengokuend] at @s rotated as @a[tag=flame] run tp ~ ~ ~
 tp @s @e[tag=rengokuend,type=armor_stand,limit=1]
 kill @e[type=armor_stand,tag=rengokuend]
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 40 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
+execute as @e[tag=rengokuff,type=!#demon:nokill] at @s run damage @s 40 minecraft:player_attack by @a[tag=flameform,limit=1,sort=nearest]
 effect give @s instant_damage 1 1 true
+tag @e[tag=rengokuff] remove rengokuff
 tag @s remove flameform

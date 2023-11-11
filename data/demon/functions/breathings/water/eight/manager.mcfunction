@@ -18,15 +18,16 @@ playsound weather.rain voice @a ~ ~ ~ 1 1.3
 playsound weather.rain voice @a ~ ~ ~ 0.3 0.5
 
 ###
-execute positioned ^ ^ ^2 run tag @e[type=!#demon:nokill,distance=..2,tag=!eightformwater] add kill
+execute positioned ^ ^ ^2 run tag @e[type=!#demon:nokill,distance=..2,tag=!eightformwater] add 8wf
 
 tellraw @a[tag=debug] "eight form water"
 
 execute as @s run function demon:breathings/manager/cooldowns/slow
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 25 minecraft:player_attack by @a[tag=eightformwater,limit=1,sort=nearest]
+execute as @e[tag=8wf,type=!#demon:nokill] at @s run damage @s 25 minecraft:player_attack by @a[tag=eightformwater,limit=1,sort=nearest]
 
 tag @s remove eightformwater
+tag @e[tag=8wf] remove 8wf
 
 tellraw @a[tag=debug] {"text":"damage 25","color":"blue"}
 

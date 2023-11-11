@@ -3,6 +3,7 @@ schedule function demon:main5t 5t
 ###### AQUI PORRA
 execute as @a[scores={ds_detectclick=1..},predicate=demon:nonenichirin,tag=none] at @s run function demon:nichirin/setelementnichirin
 
+##
 execute as @a[tag=soundfifth] at @s run function demon:particles/sound/fifth/manager
 
 
@@ -28,14 +29,6 @@ execute at @a[tag=9form] as @e[tag=blocks,type=marker,distance=2..] run function
 execute as @a[tag=9form] at @s run fill ~ ~-1 ~ ~ ~-1 ~ barrier replace air
 execute as @a[tag=9form] at @s unless entity @e[type=marker,distance=..1.5] run summon marker ~ ~-1 ~ {Tags:["blocks"]}
 execute as @a[tag=9form] at @s run function demon:breathings/water/ninth/step
-
-
-##Death
-tag @a[tag=kill,scores={ds_death=1..}] remove kill
-tag @a[tag=godspeed,scores={ds_death=1..}] remove godspeed
-tag @a[tag=killwaterfirst,scores={ds_death=1..}] remove killwaterfirst
-tag @a[tag=blueskydmg,scores={ds_death=1..}] remove blueskydmg
-execute as @a[scores={ds_death=1..},tag=!kill] run scoreboard players set @s ds_death 0
 
 ##11th form particles
 execute as @a[tag=water,tag=calm] at @s run function demon:breathings/water/giyu/animations/deathcalm/deathcalmparticles

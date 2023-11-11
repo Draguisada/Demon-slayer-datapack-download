@@ -17,7 +17,8 @@ playsound entity.polar_bear.warning ambient @a ~ ~ ~ 10 0.1
 playsound entity.ender_dragon.growl ambient @a ~ ~ ~ 10 0.1
 
 execute as @s run function demon:breathings/manager/cooldowns/slow
+
 tellraw @a[tag=debug] {"text":"damage 35","color":"red"}
-kill @e[tag=tigerkill]
+
 tag @s remove flameform
 tag @s add flametigerorigin

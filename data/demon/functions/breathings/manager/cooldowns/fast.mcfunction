@@ -1,7 +1,6 @@
-scoreboard players set @s ds_cooldown 1200
+scoreboard players set @s ds_cooldown 800
 #This is just a 80 with a 0 in the end just for more accurate cooldown
 
-execute if entity @s run scoreboard players operation @s ds_cooldown /= .2 ds_numbers
 execute if entity @s[tag=mizunoto] run scoreboard players operation @s ds_cooldown /= .0 ds_numbers
 execute if entity @s[tag=mizunoe] run scoreboard players operation @s ds_cooldown /= .1 ds_numbers
 execute if entity @s[tag=kanoto] run scoreboard players operation @s ds_cooldown /= .2 ds_numbers

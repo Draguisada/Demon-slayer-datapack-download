@@ -3,5 +3,5 @@ item replace entity @s weapon.mainhand with minecraft:carrot_on_a_stick{Damage:0
 item modify entity @s weapon.mainhand demon:setnichirinwater
 
 tag @s add water
-scoreboard players set @s giyuattack 1
+scoreboard players set @s ds_giyuattack 1
 tellraw @a[tag=debug] "nichirin setted to water"

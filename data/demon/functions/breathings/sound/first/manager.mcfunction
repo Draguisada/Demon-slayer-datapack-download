@@ -1,9 +1,9 @@
 tag @s add soundfirst
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"sound.first.chat","color":"white"}]
 
-execute positioned ^ ^1 ^1 run tag @e[tag=!soundfirst,type=!#demon:nokill,distance=..2.5] add kill
+execute positioned ^ ^1 ^1 run tag @e[tag=!soundfirst,type=!#demon:nokill,distance=..2.5] add 1sf
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=soundfirst,limit=1,sort=nearest]
+execute as @e[tag=1sf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=soundfirst,limit=1,sort=nearest]
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"white"}
 execute rotated ~90 ~-0 positioned ^ ^2 ^-1 run function demon:particles/sound/first/manager
@@ -32,3 +32,4 @@ execute as @s run function demon:breathings/manager/cooldowns/slow
 
 tellraw @a[tag=debug] "manager soundfirst"
 tag @s remove soundfirst
+tag @e[tag=1sf] remove 1sf

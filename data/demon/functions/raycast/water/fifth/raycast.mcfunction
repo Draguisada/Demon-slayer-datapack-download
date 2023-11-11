@@ -1,4 +1,4 @@
-tag @e[tag=!fifthformwater,type=!#demon:nokill,distance=..1.71] add kill
+tag @e[tag=!fifthformwater,type=!#demon:nokill,distance=..1.71] add 5wf
 particle minecraft:dripping_dripstone_water ~ ~-1.5 ~ 0.003 0 0.003 0.03 4 normal
 data merge entity @e[type=!#demon:nokill,type=!player,distance=..1.7,limit=1,nbt=!{Silent:1b}] {Silent:1b}
 

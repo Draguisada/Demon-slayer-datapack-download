@@ -28,8 +28,8 @@ execute as @s run function demon:breathings/manager/cooldowns/fast
 execute as @e[tag=zenitsuendray,type=armor_stand] at @s rotated as @a[tag=zenitsudoing] run tp ~ ~ ~
 tp @s @e[tag=zenitsuendray,type=armor_stand,limit=1]
 kill @e[type=armor_stand,tag=zenitsuendray]
-tag @e[tag=kill,type=!#demon:nokill] add kill
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=zenitsudoing,limit=1,sort=nearest]
+tag @e[tag=tff,type=!#demon:nokill] add tff
+execute as @e[tag=tff,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=zenitsudoing,limit=1,sort=nearest]
 tellraw @a[tag=debug] {"text":"damage 20","color":"yellow"}
 tag @s remove zenitsudoing
-tag @a remove kill
+tag @a remove tff

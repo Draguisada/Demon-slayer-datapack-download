@@ -16,7 +16,7 @@ playsound block.water.ambient voice @a ~ ~ ~ 1 0 1
 
 execute as @s at @s anchored eyes rotated ~90 0 positioned ^ ^ ^-1 run function demon:breathings/water/second/particles
 
-tag @e[distance=..2.5,tag=!secondformwater,type=!#demon:nokill] add kill
+tag @e[distance=..2.5,tag=!secondformwater,type=!#demon:nokill] add 2wf
 
 execute as @s at @s if block ~ ~-1 ~ air run effect give @s levitation 1 1 true
 
@@ -25,7 +25,8 @@ tellraw @a[tag=debug] "second form water"
 
 execute as @s run function demon:breathings/manager/cooldowns/fast
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=secondformwater,limit=1,sort=nearest]
+execute as @e[tag=2wf,type=!#demon:nokill] at @s run damage @s 15 minecraft:player_attack by @a[tag=secondformwater,limit=1,sort=nearest]
 
+tag @e[tag=2wf] remove 2wf
 tellraw @a[tag=debug] {"text":"damage 15","color":"blue"}
 schedule function demon:breathings/water/second/remove 2t

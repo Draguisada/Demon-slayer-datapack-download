@@ -1,4 +1,4 @@
-tag @e[tag=!rengoku,scores={ds_rengoku=..0},type=!#demon:nokill,distance=..4] add kill
+tag @e[tag=!rengoku,scores={ds_rengoku=..0},type=!#demon:nokill,distance=..4] add rengokuff
 #execute if entity @e[tag=!rengoku,type=!#demon:nokill,distance=..4] as @e[tag=!rengoku,type=!#demon:nokill,distance=..4] at @s run say @s
 particle flame ~ ~-1.5 ~ 0.003 0 0.003 0.03 4 normal
 

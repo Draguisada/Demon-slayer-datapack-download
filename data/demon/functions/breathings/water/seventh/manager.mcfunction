@@ -18,7 +18,7 @@ summon marker ^ ^ ^1 {Tags:["seventhformwaterbarrier"]}
 
 execute positioned ^ ^2 ^ run fill ^4 ^1 ^1 ^-4 ^-1 ^1 barrier replace air
 
-execute as @e[type=marker,tag=seventhformwaterbarrier] at @s run kill @e[distance=..6,type=#demon:projectile]
+execute as @e[type=marker,tag=seventhformwaterbarrier] at @s run function demon:breathings/water/seventh/stop_projectiles/1
 
 ###
 tellraw @a[tag=debug] "seventh form water"

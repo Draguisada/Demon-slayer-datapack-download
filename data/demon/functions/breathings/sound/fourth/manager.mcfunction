@@ -1,9 +1,9 @@
 tag @s add soundfourth
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"sound.fourth.chat","color":"white"}]
 
-tag @e[tag=!soundfourth,type=!#demon:nokill,distance=..3.5] add kill
+tag @e[tag=!soundfourth,type=!#demon:nokill,distance=..3.5] add 4sf
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=soundfourth,limit=1,sort=nearest]
+execute as @e[tag=4sf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=soundfourth,limit=1,sort=nearest]
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"white"}
 

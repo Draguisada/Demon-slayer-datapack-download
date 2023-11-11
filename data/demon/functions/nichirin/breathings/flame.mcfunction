@@ -3,5 +3,5 @@ item replace entity @s weapon.mainhand with minecraft:carrot_on_a_stick{Damage:0
 item modify entity @s weapon.mainhand demon:setnichirinflame
 
 tag @s add flame
-scoreboard players set @s flameattack 1
+scoreboard players set @s ds_flameattack 1
 tellraw @a[tag=debug] "nichirin setted to flame"

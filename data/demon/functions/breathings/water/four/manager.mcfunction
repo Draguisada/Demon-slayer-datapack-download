@@ -27,11 +27,11 @@ execute as @s at @s anchored eyes run function demon:raycast/water/four/raycast
 execute as @s run function demon:breathings/manager/cooldowns/medium
 execute as @e[tag=waterfourend] at @s rotated as @a[tag=fourthformwater] run tp ~ ~ ~
 tp @s @e[tag=waterfourend,type=armor_stand,limit=1]
-execute at @e[tag=kill] facing 0 40 0 positioned ~ ~0.5 ~ run function demon:breathings/water/four/particles
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fourthformwater,limit=1,sort=nearest]
+execute at @e[tag=4wf] facing 0 40 0 positioned ~ ~0.5 ~ run function demon:breathings/water/four/particles
+execute as @e[tag=4wf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=fourthformwater,limit=1,sort=nearest]
 
 kill @e[type=armor_stand,tag=waterfourend]
-
+tag @e[tag=4wf] remove 4wf
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"blue"}
 tag @s remove fourthformwater

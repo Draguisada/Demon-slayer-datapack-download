@@ -1,9 +1,9 @@
 tag @s add beastsecond
 tellraw @a[distance=..60] ["",{"selector":"@s"},{"translate":"beast.second.chat","color":"gray"}]
 
-execute positioned ^ ^1 ^1 run tag @e[tag=!beastsecond,distance=..2.5,type=!#demon:nokill] add kill
+execute positioned ^ ^1 ^1 run tag @e[tag=!beastsecond,distance=..2.5,type=!#demon:nokill] add 2bf
 
-execute as @e[tag=kill,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=beastsecond,limit=1,sort=nearest]
+execute as @e[tag=2bf,type=!#demon:nokill] at @s run damage @s 20 minecraft:player_attack by @a[tag=beastsecond,limit=1,sort=nearest]
 
 tellraw @a[tag=debug] {"text":"damage 20","color":"red"}
 execute rotated ~90 ~-0 positioned ^ ^2 ^-1 run function demon:particles/beast/second/manager
