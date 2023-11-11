@@ -12,11 +12,8 @@ Just install the last version of the datapack, it's going to download a .zip fil
 = About the pack =
 
 = How to make Nichirin's (W.I.P)
-for now you type
-/trigger ds_maker﻿
-and you'll recive a item, if you put this in the ground you'll get a crafting station, in there put in the EXACT ORDER
-Nether star, netherite ingot, netherite sword, netherite ingot, nether star
-You'll recive a white Nichirin-tou, if you right click with this Nichirin you'll get a random element
+First, You'll need a Smithing Table, then, you'll need to put a: Nether Star, Netherite sword and a Netherite Ingot
+You'll recive a book to choose what breathing form you want! But for now only, this is a Work In Progress feature, and will change soon
 
 = Using the nichirin
 
@@ -27,7 +24,6 @@ How the damage works: It's a /damage command in minecraft, it counts to armor, e
 = Triggers =
 Normal triggers (Survival mode )
 /trigger ds_...
-Maker (For now)
 Book - get the wiki-book
 bugreport
 feedback
@@ -35,7 +31,7 @@ feedback
 Creative triggers (Creative mode )
 nichirin - To get a specific breathing style with the nichirin
 helpcreative - To see all nichirin's avaliable and use with the Nichirin trigger
-nocooldown - Remove the cooldown
+nocooldown - Remove/Add the cooldown
 
 = Debug =
 
